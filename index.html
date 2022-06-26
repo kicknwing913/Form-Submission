@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Form Submission</title>
+  <h1 id="title" </h1><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+
+<header>
+  <id="title">
+    <h1> Kitchen Purchase order </h1>
+</header>
+
+<body>
+  <p id="description"> Fill in details below to place your purchase order </p>
+
+  <form id="survey-form">
+<div class=input-headings>
+    <label for="name" id="name-label"> Name </label>
+    <input id="name" type="text" name="name" placeholder="name" class="form-inputs" required> </input>
+    <br>
+
+    <label for="email" id="email-label"> Email </label>
+    <input id="email" type="email" name="email" placeholder="email" class="form-inputs" required> </input>
+    <br>
+
+    <label for="number" id="number-label"> Number </label>
+    <input id="number" type="number" name="number" placeholder="1" min="1" max="10" class="form-inputs" required> </input>
+    <br>
+
+    <label for="dropdown" id="model"> Select Equipment </label>
+    <select id="dropdown">
+      <option value="Oven"> Combi Oven </option>
+      <option value="robo_coup"> Robocoup </option>
+      <option value="hand_mixer"> Hand Mixer</option>
+      <option value="steamer"> Steamer </option>
+    </select>
+    <br>
+    <br>
+    <label for="kitchen_use>" id="kitchen_use"> <b> Kitchen Use </b></label>
+    <br>
+    <input id="kitchen_use" type="radio" id="gas" name="use" value="gas">
+    <label for="kitchen_use"> Gas </label>
+    <br>
+    <input id="kitchen_use" type="radio" id="induction" name="use" value="induction">
+    <label for="kitchen_use"> Induction </label>
+    <br>
+    <input id="kitchen_use" type="radio" id="Electric" name="use" value="Electric">
+    <label for="kitchen_use"> Electric </label>
+
+    <br>
+    <br>
+
+    <label for="features"> <b> Add features: </b> <label>
+        <br>
+        <input id="checkbox" type="checkbox" name="features" value="free shipping">
+        <label for="checkbox"> Free shipping - $0.00 </label> <br>
+        <input id="checkbox" type="checkbox" name="features" value="free shipping">
+        <label for="checkbox"> With Warenty - $100.00 </label><br>
+        <input id="checkbox" type="checkbox" name="features" value="free shipping">
+        <label for="checkbox"> Without Warenty - $0.00 </label><br>
+        <input id="checkbox" type="checkbox" name="features" value="free shipping">
+        <label for="checkbox"> Proffesional Install - $200.00 </label><br>
+        <br>
+        <label id="textarea"> <b> Additional Comments </b> </label>
+        <br>
+
+        <textarea id="textarea" name="instructions" rows="5" cols="40">
+  </textarea>
+      <br>
+        <input id="submit" type="submit" value="Place Order" class=submit-button>
+      </div>
+      </form>
+</body>
+</html>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
